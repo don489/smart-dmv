@@ -27,24 +27,5 @@ options = [
 choice = st.selectbox("How can I help you today?", options)
 
 if st.button("Continue"):
-    st.success(f"You selected: {choice}")
+   choice}")
 
-# Embedded AI Avatar (Vera)
-html(
-    """
-    <div style="margin-top: 30px;">
-        <iframe src="https://vercel-widget-demo.vercel.app/vera-dmv.html" width="100%" height="500" frameborder="0" allow="microphone; autoplay"></iframe>
-    </div>
-    """,
-    height=550,
-)
-# Vera AI Talking Avatar (Realistic, speaking face)
-html(
-    """
-    <div style="margin-top: 30px;">
-        <iframe src="https://vercel-widget-demo.vercel.app/vera-dmv.html"
-        width="100%" height="550" frameborder="0" allow="microphone; autoplay"></iframe>
-    </div>
-    """,
-    height=550,
-)
