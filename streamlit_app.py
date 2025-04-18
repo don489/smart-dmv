@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 # Set page config
